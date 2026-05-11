@@ -1,0 +1,27 @@
+{
+  "window_seconds": 60,
+  "window_length": 240,
+  "sampling_rate_hz": 4,
+  "channels": [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "bvp",
+    "eda",
+    "temp",
+    "ecg"
+  ],
+  "n_channels": 7,
+  "threshold": 0.3,
+  "classes": {
+    "0": "Not Stressed",
+    "1": "Stressed"
+  },
+  "test_metrics": {
+    "auc": 0.874,
+    "accuracy": 0.762,
+    "precision": 0.661,
+    "recall": 0.667,
+    "f1": 0.664
+  }
+}
